@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* NAVIGATION BAR CSS */
+
+.nav-bar {
+  background-color: #222222;
+}
+
+.links-list {
+  width: 80%;
+  margin-left: 9%;
+}
+
+.links-list ul li {
+  list-style: none;
+  float: left;
+  padding: 2%;
+}
+
+.links-list li a {
+  text-decoration: none;
+  color: #959291;
+}
+
+
+.links-list a:hover {
+  color: white;
+}
+
+.search-bar-btn {
+  margin-left: 70%;
+  padding: 1%;
+}
+
+.search-bar-btn input[type="search"] button {
+  float: right;
+}
+
+.search-bar-btn input[type="search"] {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+.search-bar-btn button {
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 1%;
+}
+
+/* MAIN SECTION  */
+
+.main-section {
+  background-color: #9acd32;
+  height: 225px;
+}
+
+.main-section-content {
+  width: 50%;
+  color: #acfd2f;
+  margin-left: 10%;
+  padding-top: 50px;
+}
+
+.main-section-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1%;
+}
+
+.main-section-content p {
+  margin-bottom: 2%;
+}
+
+.submit-btn {
+  background-color: white;
+  border: white;
+  border-radius: 2px;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  color: #20860e;
+}
+
+/* Sub-Section CSS */
+
+.product-details {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.product-details span {
+  color: #959291;
+  font-size: 14px;
+}
+
+.product-details p {
+  color: #959291;
+  font-size: 12px;
+}
+
+.product-card {
+  margin-top: 2%;
+}
+
+.product {
+  float: left;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.product h3 {
+  color: #4986c0;
+}
+
+/* sub-section 2 css */
+
+.bussiness-section{
+  background-color: #DAA520;
+}
+
+.bussiness-details {
+  width: 80%;
+  background-color: #DAA520;
+  margin: 0 auto;
+}
+
+.bussiness-card {
+  margin-top: 2%;
+}
+
+.details {
+  float: left;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.details p{
+  font-size: 14px;
+}
+
+
+/* footer section css */
+
+.footer{
+  clear: both;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.footer a{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4986c0;
+}
+
+.footer p{
+  color: #959291;
+  font-weight: bold;
+  font-size: 12px;
+}

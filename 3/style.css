@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+th, td, tr{
+    border: 2px solid black;
+    padding: 11px;
+    text-align: center;
+}
+
+.lunch{
+    font-size: 1.5rem;
+}

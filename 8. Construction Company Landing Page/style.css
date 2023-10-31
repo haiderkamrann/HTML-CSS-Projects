@@ -1,0 +1,696 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* MAIN SECTION CSS */
+
+.main-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.ms-container {
+  position: relative;
+}
+
+.ms-container::after {
+  content: "";
+  background-color: #e8662b;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 20%;
+  height: 102vh;
+}
+
+/* .orange {
+  background-color: #e8662b;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 20%;
+  height: 100vh;
+} */
+
+.about-us {
+  position: absolute;
+  left: 22%;
+  top: 20px;
+  width: 30%;
+  padding: 50px;
+  background-color: #394d60;
+  color: white;
+  z-index: 3;
+}
+
+.about-us p {
+  font-size: 0.8rem;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+.about-us h1 {
+  font-size: 2.3rem;
+}
+
+.ms-img {
+  background-image: url("./assets/ht6uy-min.jpg");
+  background-size: cover;
+  width: 470px;
+  height: 320px;
+  position: absolute;
+  top: 140px;
+  left: 43%;
+  z-index: 2;
+}
+
+.as-container {
+  display: flex;
+  width: 70%;
+  position: absolute;
+  z-index: 3;
+  top: 435px;
+  margin: 0 auto;
+  left: 100px;
+  right: 0;
+  gap: 10px;
+}
+
+.box {
+  background-color: white;
+  width: 20%;
+  padding: 20px;
+  box-shadow: 1px 1px 10px;
+}
+
+.box:hover {
+  box-shadow: 1px 1px 5px;
+}
+
+.bx-shape-triangle::before {
+  font-size: 40px;
+}
+
+.bx-microchip::before {
+  font-size: 40px;
+}
+
+.bx-library::before {
+  font-size: 40px;
+}
+
+.bxs-wrench::before {
+  font-size: 40px;
+}
+
+.box p:nth-child(even) {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.box p:nth-child(odd) {
+  color: grey;
+  font-style: oblique;
+}
+
+/* WOOD SYSTEM SECTION  */
+
+.wood-system-section {
+  width: 100%;
+  height: 206vh;
+  background-color: #f2f2f2;
+}
+
+.heading-content h2 {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 2.5rem;
+}
+
+.heading-content p {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+
+.ws-cards {
+  display: flex;
+  width: 66%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+
+.ws-box {
+  width: 26%;
+  padding: 20px;
+}
+
+.orange-clr {
+  background-color: #e8662b;
+}
+.blue {
+  background-color: #394d60;
+}
+.white {
+  background-color: #fff;
+}
+
+.baseStyle p:nth-child(odd) {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.baseStyle p:nth-child(even) {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 10px;
+  line-height: 20px;
+  color: white;
+  font-weight: 100;
+}
+
+.white p:nth-child(odd) {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.white p:nth-child(even) {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 10px;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+.ws-box-img {
+  background-image: url("./assets/worker.jpg");
+  background-size: cover;
+  width: 26%;
+}
+
+.ws-box-img-two {
+  background-image: url("./assets/worker2.jpg");
+  background-size: cover;
+  width: 26%;
+}
+
+.ws-box-img-three {
+  background-image: url("./assets/worker3.jpg");
+  background-size: cover;
+  width: 26%;
+}
+
+.ws-content-container {
+  width: 44%;
+  margin: 0 auto;
+  padding-top: 10%;
+  display: flex;
+  position: relative;
+}
+
+.ws-content {
+  width: 48%;
+}
+
+.ws-content p:nth-child(odd) {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.ws-content p:nth-child(even) {
+  padding-top: 20px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.ws-img {
+  background-image: url("./assets/bulding1.jpg");
+  background-size: cover;
+  width: 44%;
+  height: 25vh;
+  position: absolute;
+  left: 60%;
+  bottom: 8%;
+}
+
+.ws-content-container-two {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  gap: 25%;
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+
+.ws-img-two {
+  background-image: url("./assets/architect.jpg");
+  background-size: cover;
+  width: 30%;
+  height: 25vh;
+}
+
+.ws-content-two {
+  width: 40%;
+}
+
+.ws-content-two p:nth-child(odd) {
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 14px;
+}
+
+.ws-content-two p:nth-child(even) {
+  padding-top: 20px;
+  font-size: 10px;
+  text-align: justify;
+}
+
+li::marker {
+  content: "✓";
+  color: #e8662b;
+  font-weight: bold;
+}
+
+.ws-content-two ul {
+  line-height: 20px;
+  font-style: 300;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.btn button {
+  background-color: #e8662b;
+  padding: 8px;
+  border: none;
+  width: 150%;
+  cursor: pointer;
+}
+
+.btn button a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn button:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.btn a:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+/* OUR TEAM CSS */
+
+.ot-section-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.orange-left {
+  width: 50%;
+  height: 100vh;
+  background-color: #e8662b;
+}
+
+.white-right {
+  width: 50%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.white-right::before {
+  content: "";
+  background-image: url("./assets/fgg.jpg");
+  background-size: cover;
+  width: 24%;
+  height: 48%;
+  border-radius: 50%;
+  position: absolute;
+  top: 22%;
+  right: 42%;
+  z-index: 2;
+}
+
+.orange-left::before {
+  content: "";
+  background-image: url('./assets/fddffy.jpg');
+  background-size: cover;
+  width: 16%;
+  height: 32%;
+  border-radius: 50%;
+  position: absolute;
+  top: 8%;
+  right: 58%;
+  z-index: 2;
+}
+
+.img-three {
+  background-image: url("./assets/hg.jpg");
+  background-size: cover;
+  width: 18%;
+  height: 38%;
+  border-radius: 50%;
+  position: absolute;
+  top: 6%;
+  left: 60%;
+  z-index: 2;
+}
+
+.img-four {
+  background-image: url("./assets/kll.jpg");
+  background-size: cover;
+  width: 18%;
+  height: 38%;
+  border-radius: 50%;
+  position: absolute;
+  top: 58%;
+  right: 56%;
+  z-index: 2;
+}
+
+.card-ot {
+  background-color: #394d60;
+  width: 25%;
+  position: absolute;
+  top: 60%;
+  right: 27%;
+  z-index: 2;
+  padding: 20px;
+}
+
+.card-ot p:nth-child(odd) {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.card-ot p:nth-child(even) {
+  font-size: 13px;
+  line-height: 20px;
+  text-align: justify;
+  color: white;
+  margin-top: 10px;
+}
+
+.card-ot button {
+  margin-top: 20px;
+  border: 1px solid white;
+  padding: 10px;
+  width: 50%;
+  background-color: #394d60;
+}
+
+.card-ot button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* FOUNDER SECTION CSS */
+
+.founder-section {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 40vh;
+}
+
+.founder-section-container {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  justify-content: space-between;
+}
+
+.founder-card-one {
+  width: 35%;
+  text-align: center;
+  position: absolute;
+  top: 45px;
+  padding: 8% 2% 5% 2%;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px;
+}
+
+.founder-card-two {
+  width: 35%;
+  position: absolute;
+  top: 175px;
+  left: 36%;
+  padding: 8% 2% 5% 2%;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px;
+}
+
+.founder-card-three {
+  width: 35%;
+  text-align: center;
+  position: absolute;
+  top: 45px;
+  left: 72%;
+  padding: 8% 2% 5% 2%;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px;
+}
+
+.img-founder img {
+  border-radius: 50%;
+  width: 15%;
+}
+
+.center {
+  text-align: center;
+}
+
+.quotestyle q {
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.para p:nth-child(odd) {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.para p:nth-child(even) {
+  font-weight: 100;
+}
+
+/* INNOVATION SECTION CSS */
+
+.innovation-section {
+  background-color: #e8662b;
+  width: 100%;
+  height: 80vh;
+}
+
+.inno-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.inno-content {
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 400px;
+  height: 75vh;
+  width: 50%;
+}
+
+.inno-content h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 40%;
+  font-weight: bold;
+}
+
+.description {
+  width: 77%;
+  margin: 0 auto;
+}
+
+.description p {
+  text-align: center;
+  font-weight: 100;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.inno-img {
+  background-image: url("./assets/rerrr-min.jpg");
+  background-size: cover;
+  width: 40%;
+  height: 60vh;
+  position: absolute;
+  top: 240px;
+}
+
+.inno-btn {
+  position: absolute;
+  top: 830px;
+}
+
+.inno-btn button {
+  background-color: #e8662b;
+  border: none;
+}
+
+.inno-btn a {
+  background-color: #e8662b;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* CONSTRUCTION PROJECT SECTION */
+
+.construction-proj-section {
+  width: 100%;
+  height: 40vh;
+  margin-top: 35%;
+}
+
+.cp-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+}
+
+.heading {
+  width: 70%;
+}
+
+.content-cp {
+  width: 74%;
+  font-weight: 400;
+}
+
+.content-cp-btn {
+  width: 84%;
+}
+
+.content-cp-btn button{
+  margin-top: 20px;
+  background-color: #e8662b;
+  border: none;
+  padding: 10px;
+}
+
+.content-cp-btn a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* CONTACT DETAILS SECTION css */
+
+
+.contact-details-section{
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.cd-container{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.form{
+  width: 38%;
+  display: flex;
+  padding-left: 20%;
+  padding-top: 20px;
+  background-color: #f2f2f2;
+}
+
+.form input{
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 22px;
+  background-color: #f2f2f2;
+}
+
+.form textarea{
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+
+.form input[type="button"]{
+  padding: 10px;
+  background-color: #e8662b;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.form input:focus{
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.contact-details{
+  width: 30%;
+  padding-left: 40px;
+  background-color: white;
+}
+
+.orange-head p:first-child{
+  color: #e8662b;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.top-services ul{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.top-services li{
+  padding-left: 10px;
+}
+
+.img-cd{
+  background-image: url("./assets/contactimg.jpg");
+  background-size: cover;
+  width: 20%;
+  height: 50vh;
+}
+
+
+/* FOOTER */
+
+.footer{
+  background-color: #394d60;
+}
+
+.footer h5{
+  text-align: center;
+  color: white;
+}

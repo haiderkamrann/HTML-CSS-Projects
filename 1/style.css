@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    border: 1px solid black;
+    outline: 2px solid black;
+    width:60%;
+    margin: 0 auto; 
+    margin-top: 10px;
+}
+
+/* Left Section CSS */
+
+#left-section{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin: 30px;
+}
+
+#left-section p{
+    font-size: 20px;    
+}
+
+/* Experience Section CSS */
+
+.experience{
+    margin-top: 40px;
+}
+
+.experience pre{
+    font-size: 13px;
+} 
+
+.sub-headings{
+    color: #1a95a3 !important;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.experience span{
+    color: grey;
+}
+
+
+/* Education Section CSS */
+
+.education{
+    margin-top: 40px;
+}
+
+.education pre{
+    font-size: 13px;
+} 
+
+.education span{
+    color: grey;
+}
+
+
+/* Project Section CSS */
+
+
+.project{
+    margin-top: 40px;
+}
+
+.project pre{
+    font-size: 13px;
+} 
+
+.project span{
+    color: grey;
+}
+
+/* right section css */
+
+#right-section{
+    display: inline-block;
+    margin-top: 30px; 
+    margin-left: 50px;
+}
+
+/* contact section css */
+
+.contact-details{
+    font-size: 12px;
+}
+
+/* skills section css */
+
+.skills{
+     margin-top:32px; 
+}
+
+.list-style li{
+    list-style-type: none;
+    font-size: 13px;
+    color: grey;
+    margin-top: 10px;
+}
+
+
+/* soft skills css */
+
+.soft-skills{
+    margin-top: 32px;
+}
+
+/* awards section css */
+
+.awards{
+    margin-top: 32px;
+}
+
+
+/* languages section css */
+
+.languages{
+    margin-top: 32px;
+}
+
+.languages p{
+    list-style-type: none;
+    font-size: 13px;
+    color: grey;
+    margin-top: 10px;
+}
